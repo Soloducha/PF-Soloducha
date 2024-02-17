@@ -1,0 +1,28 @@
+/* Contacto */
+
+.formulario .campo {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px 10px 10px;
+    background: $verdemilitia;
+    border-radius: 5px;
+    text-align: left;
+    color:white
+    }
+
+.btn-formulario {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    @include redondeado(5px);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.500);
+    padding: 10px 10px 10px 10px;
+    background-color: $verdemilitia;
+    color:#F5F7F8;
+    &:hover {
+        background-color: #F5F7F8;
+        color: $verdemilitia;
+        border-color: $verdemilitia;
+    }
+}	

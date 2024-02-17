@@ -1,0 +1,26 @@
+/* NAVBAR */
+.navbar{
+    padding: 0%;
+}
+
+.container-fluid {
+    background: linear-gradient(90deg, white 0%, $rosa 25%, $rosa 75%, white 100%);
+    img{
+        height: 100px;
+    }
+}
+
+.offcanvas {
+    background: linear-gradient(180deg, #d097a6 0%, white 80%);
+        .offcanvas-end {
+            width: 260px;
+        }
+}
+
+.dropdown-menu {
+    background-color: $rosaclaro;
+}
+
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover  {
+    background-color: rgba(0, 0, 0, 0.5);
+}

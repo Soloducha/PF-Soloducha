@@ -1,0 +1,19 @@
+/* FOOTER */
+footer {
+    background-color: $rosa;
+    svg{
+        height:40px; 
+        width:40px;
+    }
+}
+
+.footer-logo{
+    display: flex;
+    img{
+        height: 150px;
+    }
+}
+
+.licencia{
+    background-color: rgba(0, 0, 0, 0.4)
+}

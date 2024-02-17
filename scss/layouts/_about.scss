@@ -1,0 +1,35 @@
+/*acerca de*/
+.about{
+    display: inline-block;
+
+        article{
+            margin: 20px;
+            width: 25%;
+            display: inline-block;
+            border: 5px black solid;
+            @include redondeado(40px);
+            background-color: $blancotransparente;
+            @include animacion-zoom;
+                &:hover{
+                    @include animacion-zoom-hover
+                }
+            p{
+                margin: 0%;
+            }
+        }
+        img{
+            width: -webkit-fill-available; 
+            height: auto;
+            display: inline;
+            @include redondeado(40px);
+        }
+        
+
+}
+
+.p-especial{
+    margin: 20px;
+    background-color: $blancotransparente;
+    overflow-y: auto;
+    text-align: justify;
+}
