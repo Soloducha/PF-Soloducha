@@ -6,8 +6,6 @@
             margin: 20px;
             width: 25%;
             display: inline-block;
-            border: 5px black solid;
-            @include redondeado(40px);
             background-color: $blancotransparente;
             @include animacion-zoom;
                 &:hover{
@@ -21,7 +19,7 @@
             width: -webkit-fill-available; 
             height: auto;
             display: inline;
-            @include redondeado(40px);
+            @include redondeado(80px);
         }
         
 

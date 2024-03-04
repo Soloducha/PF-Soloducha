@@ -1,0 +1,21 @@
+// GALERIA
+.galeria-bg{
+    padding-top: 0%;
+    background-color: black;
+    background-image: url(../assets/images/negro.png);
+    background-repeat:repeat;
+    background-size: 100% 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.videos{
+    height: 400px;
+}
+
+.slide{
+    // width: 70%;
+    display: inline-block;
+}
+.espacio{
+    margin-top: 100px;
+}
