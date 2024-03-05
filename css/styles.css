@@ -449,8 +449,6 @@ main {
   display: inline-block;
 }
 .about article {
-  margin: 20px;
-  width: 25%;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-transform: scale(1);
@@ -458,15 +456,17 @@ main {
 }
 .about article:hover {
   transform: scale(1.2);
-  transition: 0.2s ease-in-out;
+  transition: 0.2s ease-out;
+  z-index: 1;
+  position: relative;
 }
 .about article p {
   margin: 0%;
 }
 .about img {
-  width: -webkit-fill-available;
+  width: 100%;
   height: auto;
-  display: inline;
+  display: inline-block;
   border-radius: 80px;
 }
 

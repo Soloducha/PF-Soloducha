@@ -33,7 +33,9 @@ $color: #d097a6;
 
 @mixin animacion-zoom-hover {
     transform: scale(1.2);
-	transition: .2s ease-in-out;
+	transition: .2s ease-out;
+    z-index: 1;
+    position: relative;
 }
 
 @mixin animacion-zoom {
